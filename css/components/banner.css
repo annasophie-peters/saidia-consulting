@@ -1,0 +1,72 @@
+.banner{
+	background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../../images/whu.jpg);
+	width: 100vw;
+	height: 60vh;
+	color: white;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-top: 25vh;
+	position: relative;
+}
+
+.banner h1 {
+	font-size: 50px;
+	margin-bottom: 0;
+}
+
+.banner h3 {
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8;
+	margin-top: 10px;
+}
+
+
+@media screen and (max-width: 1000px) {
+	.banner {
+		padding-top: 10vh;
+		height: 20vh;
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 760px) {
+  .banner {
+  	padding-top: 10vh;
+		height: 20vh;
+		width: auto;
+  }
+  .banner h1 {
+	font-size: 30px;
+	margin-bottom: 0;
+ }
+
+.banner h3 {
+	font-size: 20px;
+	font-weight: lighter;
+	opacity: 0.8;
+	margin-top: 8px;
+ }
+}
+@media screen and  (max-width: 500px) {
+  .banner  {
+  padding-top: 10vh;
+		height: 20vh;
+		width: auto;
+  }
+ .banner h1 {
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+.banner h3 {
+	font-size: 10px;
+	font-weight: lighter;
+	opacity: 0.8;
+	margin-top: 5px;
+}
+}

@@ -1,0 +1,40 @@
+.btn-red{
+	background-color: #940100;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	margin-top: 5px;
+  cursor: pointer;
+}
+
+.btn-red:hover {
+  background-color: #f5b426;
+}
+
+@media screen and (max-width: 760px) {
+  .btn-red{
+  	padding: 10px 15px;
+  	font-size: 13px;
+  	margin-top: 5px;
+  }
+
+}
+
+@media screen and  (max-width: 500px) {
+  .btn-red {
+		padding: 8px 13px;
+  	font-size: 10px;
+  	margin-top: 5px;
+  }
+}
+
+
+
+
+
+
+
+

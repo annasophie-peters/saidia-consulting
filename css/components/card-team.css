@@ -1,0 +1,31 @@
+.card-team {
+  padding: 0 6px;
+  margin: 5px;
+}
+
+.card-team::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.card-team h2 {
+  color: #484848;
+  font-size: 19px;
+}
+
+.card-team p {
+  font-size: 18px;
+  color: #505050;
+}
+
+.card-team button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
